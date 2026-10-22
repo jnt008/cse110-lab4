@@ -82,7 +82,8 @@ class App implements ScreenSwitcher {
 
 			case "result":
 				// Show results with the final score
-				this.resultsController.showResults(screen.score);
+				//showResultsFromServer
+				this.resultsController.showResultsFromServer(screen.score);
 				break;
 		}
 	}
